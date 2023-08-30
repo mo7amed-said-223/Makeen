@@ -1,0 +1,617 @@
+
+.pagination>.active>a,
+.pagination>.active>a:focus,
+.pagination>.active>a:hover {
+    background-color: #1e88e5;
+    border-color: #1e88e5
+}
+
+.pagination>li>a {
+    color: #1e88e5
+}
+
+.page-link:hover {
+    color: #1e88e5
+}
+
+.page-link:focus {
+    box-shadow: unset
+}
+
+.page-item.active .page-link {
+    background-color: #1e88e5;
+    border-color: #1e88e5
+}
+
+.card {
+    border: 1px solid #e9ecef;
+    margin-bottom: 1.875rem;
+    border-radius: 0
+}
+
+.card-body {
+    padding: 1.5rem
+}
+
+.card-title {
+    margin-bottom: 15px
+}
+
+.card-header {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 1rem 1.5rem
+}
+
+.card .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0
+}
+
+.card .card-header .card-title {
+    margin-bottom: 0
+}
+
+.form-control:focus {
+    border-color: #bbb;
+    box-shadow: none;
+    outline: 0
+}
+
+.notification-title select:focus-visible {
+    outline: 0
+}
+
+.notification-title select:focus-visible {
+    outline: 0
+}
+
+:focus,
+[type=text].form-control:focus,
+button:focus,
+input.form-control:focus,
+input[type=text]:focus {
+    outline: none !important;
+    box-shadow: none
+}
+
+.course-content {
+    background: #fafafa;
+    padding: 80px 0
+}
+
+.error-box .btn-primary:active:not(:disabled):not(.disabled) {
+    background: var(--primary-color)
+}
+
+.card.post-widget {
+    margin-bottom: 20px;
+    border-radius: 10px
+}
+
+.lms-page li .page-link {
+    margin-right: 15px;
+    border: 1px solid #ffdeda;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.lms-page {
+    margin-bottom: 0;
+    margin-top: 20px
+}
+
+.lms-page li .page-link:hover {
+    background-color: var(--main-color);
+    color: #fff
+}
+
+.lms-page .page-item.active .page-link {
+    background-color: var(--main-color);
+    border-color: var(--main-color)
+}
+
+.page-item:first-child .page-link {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px
+}
+
+.latest-posts {
+    margin: 0;
+    padding: 0
+}
+
+.latest-posts li {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.latest-posts li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none
+}
+
+.post-thumb {
+    border-radius: 4px;
+    width: 60px;
+    float: left;
+    overflow: hidden
+}
+
+.post-thumb a img {
+    border-radius: 4px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+    -moz-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -ms-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -o-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -webkit-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms
+}
+
+.post-thumb a:hover img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15)
+}
+
+.post-info {
+    margin-left: 92px
+}
+
+.post-info h4 {
+    font-size: 15px;
+    margin: 0 0 5px
+}
+
+.post-info h4 a {
+    color: #000;
+    font-size: 14px
+}
+
+.post-info h4 a:hover {
+    color: var(--main-color)
+}
+
+.post-info p {
+    color: var(--main-color);
+    font-size: 14px;
+    margin: 0;
+    font-weight: 500
+}
+
+.blog {
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 25px
+}
+
+.blog-image {
+    overflow: hidden
+}
+
+.blog-image,
+.blog-image>a,
+.blog-image img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto
+}
+
+.blog-image img {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+    -moz-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -ms-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -o-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -webkit-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms
+}
+
+.blog-image a:hover img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15)
+}
+
+.blog-image {
+    margin-bottom: 20px;
+    border-radius: 5px 5px 0 0
+}
+
+.blog-content {
+    position: relative
+}
+
+.blog-title {
+    font-size: 24px;
+    margin: 0 0 20px;
+    font-weight: 600;
+    line-height: 1.3
+}
+
+.blog-title a {
+    color: #000
+}
+
+.blog-title a:hover {
+    color: var(--main-color)
+}
+
+.blog-content p {
+    margin: 0 0 20px;
+    font-size: 14px;
+    color: #685f78;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+}
+
+.read-more {
+    display: inline-block;
+    font-size: 16px;
+    padding: 0;
+    color: #1e88e5;
+    text-decoration: underline
+}
+
+.blog-info {
+    color: #26292c;
+    font-size: 14px;
+    margin-bottom: 20px
+}
+
+.post-left ul {
+    margin: 0;
+    padding-right: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.post-left ul li {
+    padding: 0 20px;
+    border-right: 2px solid #c4c4c4;
+    color: #000;
+    font-weight: bold;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    font-size: var(--small-font);
+}
+
+.post-left ul li:first-child {
+    border: 0;
+    padding-left: 0
+}
+
+.post-left ul li img {
+    margin-right: 9px
+}
+
+.latest-posts {
+    margin: 0;
+    padding: 0
+}
+
+.latest-posts li {
+    display: table;
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.latest-posts li:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none
+}
+
+.post-thumb {
+    border-radius: 4px;
+    width: 80px;
+    float: left;
+    overflow: hidden
+}
+
+.post-thumb a img {
+    border-radius: 4px;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+    -moz-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -ms-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -o-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    -webkit-transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms;
+    transition: all 2000ms cubic-bezier(.19, 1, .22, 1) 0ms
+}
+
+.post-thumb a:hover img {
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    transform: scale(1.15)
+}
+
+.blog-widget .post-info {
+    margin-left: 95px
+}
+
+.blog-widget .post-info h4 {
+    font-size: 14px;
+    margin: 0 0 5px;
+    font-weight: 600
+}
+
+.blog-widget .post-info h4 a {
+    color: #22100d
+}
+
+.blog-widget .post-info h4 a:hover {
+    color: var(--main-color)
+}
+
+.blog-widget .post-info p {
+    color: #000;
+    font-size: 12px;
+    margin: 0
+}
+
+.category-widget .categories {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.category-widget .categories li {
+    margin-bottom: 20px
+}
+
+.category-widget .categories li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.category-widget .categories li a {
+    color: #22100d;
+    font-size: 14px;
+    font-weight: 500
+}
+
+.category-widget .categories li a:hover {
+    color: var(--main-color)
+}
+
+.category-widget .categories>li>a>i {
+    color: var(--main-color);
+    font-size: 18px;
+    margin-left: 19px
+}
+
+.tags-card {
+    padding-bottom: 5px
+}
+
+.tags-widget .card-body {
+    padding-bottom: 1rem
+}
+
+.tags {
+    list-style: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0
+}
+
+.tags li {
+    float: left
+}
+
+.tag {
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px 10px;
+    position: relative;
+    margin: 0 15px 15px 0;
+    font-size: 14px;
+    border: 1px solid var(--secondary-color);
+    display: inline-block;
+    font-weight: 500
+}
+
+.tag:hover {
+    background-color: var(--white-color);
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+
+}
+
+.blog-read .btn-primary {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    padding: 9px 28px
+}
+
+.blog-read .btn-primary:hover {
+    background: #fff;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.blog-widget {
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    margin-bottom: 20px;
+    border-radius: 10px
+}
+
+.tags-card {
+    padding-bottom: 5px
+}
+
+.blog-widget .card-body {
+    padding: 0
+}
+
+.blog-widget .card-header {
+    border-bottom: 0;
+    padding: 0;
+    margin-bottom: 20px
+}
+
+.blog-search .input-group .btn-primary {
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color)
+}
+
+.blog-search .input-group .form-control {
+    background: rgba(229, 229, 229, .42);
+    border: 0
+}
+
+.blog-widget .card-header .card-title {
+    font-size: 18px;
+    color: #0b0b0b;
+    font-weight: 700
+}
+
+.post-widget .post-info p img {
+    margin-right: 6px
+}
+
+.blog-grid-box {
+    background: #fff;
+    padding: 15px;
+    margin: 0 10px;
+    margin-top: -20px;
+    position: relative;
+    border-radius: 5px
+}
+
+.blog-grid-box .post-left ul li {
+    padding: 0 10px
+}
+
+.blog-grid-box .post-left ul li i {
+    padding: 0 5px
+}
+
+
+.grid-blog .blog-image {
+    margin-bottom: 0
+}
+
+.grid-blog {
+    margin-bottom: 20px
+}
+
+@media(max-width: 991.98px) {
+
+    .container {
+        max-width: 100%
+    }
+
+    .course-content {
+        padding: 60px 0
+    }
+
+    .lms-page {
+        margin-bottom: 20px;
+        margin-top: 0
+    }
+
+    .blog-title {
+        font-size: 20px
+    }
+
+    .blog-read .btn-primary {
+        font-size: 16px
+    }
+
+    .post-left ul li {
+        margin-bottom: 5px
+    }
+}
+
+@media(max-width: 767.98px) {
+    body {
+        font-size: 15px
+    }
+
+    .btn {
+        font-size: 14px
+    }
+
+    .course-content {
+        padding: 50px 0
+    }
+
+    .lms-page {
+        margin-bottom: 20px;
+        margin-top: 0
+    }
+
+    .lms-page li .page-link {
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        color: #000;
+        font-size: 12px
+    }
+
+    .course-content {
+        padding: 40px 0
+    }
+
+    .blog-title {
+        font-size: 18px
+    }
+
+    .post-left ul li {
+        margin-bottom: 10px
+    }
+
+    .blog-read .btn-primary {
+        font-size: 14px;
+        padding: 7px 26px
+    }
+
+    .post-left ul {
+        display: block
+    }
+
+    .post-left ul li {
+        border: 0;
+        padding: 0 0
+    }
+
+    .blog-widget .card-header {
+        margin-bottom: 20px
+    }
+}

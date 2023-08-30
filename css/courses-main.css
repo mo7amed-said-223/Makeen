@@ -1,0 +1,23 @@
+.w-90{
+    width: 90% !important;
+}
+.show-more-card-main{
+    padding-bottom: 20px;
+    height: fit-content;
+}
+.show-more-card-main .card-body{
+    height: 290px;
+    overflow: hidden;
+}
+
+.show-more-card-main .card-body.more{
+    height: auto;
+}
+.seemore{
+    color: var(--primary-color);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}

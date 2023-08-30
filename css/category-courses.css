@@ -1,0 +1,109 @@
+.page-banner {
+    padding: 88px 0;
+    text-align: center;
+    background: url('../assets/imgs/ban-bg.png') var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page-banner h1 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+@media (max-width: 1399.98px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .page-banner {
+        padding: 50px 0;
+    }
+
+    .page-banner h1 {
+        font-size: 24px;
+    }
+}
+/**Categorys Section*/
+.category_section {
+    padding: 100px;
+}
+
+.category_section .categorys {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.category_section .categorys .category-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 20px 0;
+    height: 250px;
+    width: 300px;
+    border: 5px solid #000;
+}
+
+.category_section .categorys .category-card img,
+.category_section .categorys .category-card .cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.category_section .categorys .category-card .cover {
+    background-image: linear-gradient(to top, #fff, #ffffff00);
+    z-index: -1;
+}
+
+.category_section .categorys .category-card .cover-hover {
+    background-color: var(--main-color);
+    position: absolute;
+    border-radius: 50%;
+    width: 0%;
+    height: 0%;
+    top: 40%;
+    left: 50%;
+    z-index: -1;
+}
+
+.category_section .categorys .category-card i {
+    color: var(--black-color);
+    font-size: calc(var(--big-font)*2);
+}
+
+.category_section .categorys .category-card a {
+    color: var(--black-color);
+    font-size: calc(var(--big-font)*1.2);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.category_section .categorys .category-card:hover .cover {
+    background-color: var(--white-color);
+    opacity: 0.7;
+}
+
+.category_section .categorys .category-card:hover {
+    border-color: var(--main-color);
+    border-width: 10px;
+}

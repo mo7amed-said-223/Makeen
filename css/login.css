@@ -1,0 +1,444 @@
+.login-bg {
+    background-image: url(../img/login-bg.png);
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center
+}
+
+.login-banner {
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.welcome-login {
+    padding: 20px 20px 0
+}
+
+.mentor-course h2 {
+    font-size: 30px;
+    color: #000;
+    font-weight: 500;
+    margin: 40px 0 20px
+}
+
+.mentor-course p {
+    font-size: 14px;
+    color: #22100d;
+    margin-bottom: 0;
+    max-width: 570px;
+    margin: auto
+}
+
+.login-banner img {
+    max-width: 430px
+}
+
+.login-wrap-bg {
+    position: absolute;
+    right: 0;
+    padding: 0
+}
+
+.login-wrapper {
+    max-width: 100%;
+    height: 100vh;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap
+}
+
+.login-wrapper .loginbox {
+    max-width: 100%;
+    width: 100%;
+    font-weight: 600;
+    padding: 100px
+}
+
+.login-wrapper .loginbox .img-logo {
+    margin-bottom: 54px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.login-wrapper .loginbox .img-logo img {
+    width: 150px
+}
+
+.back-home {
+    margin-right: auto
+}
+
+.back-home a {
+    text-decoration: underline;
+    font-weight: 400
+}
+
+.login-wrapper .loginbox h1 {
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 27px;
+    color: #000
+}
+
+.login-wrapper .loginbox label {
+    margin-bottom: 15px;
+    width: 100%;
+    color: #685f78;
+    font-weight: 500
+}
+
+.toggle-password {
+    position: absolute;
+    right: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ccc;
+    cursor: pointer
+}
+
+.pass-group {
+    position: relative
+}
+
+.google-bg {
+    background: rgba(255, 222, 218, .31);
+    padding: 50px;
+    width: 100%
+}
+
+.sign-google ul {
+    padding: 0;
+    margin: 0;
+    display: inline-flex
+}
+
+.sign-google ul li {
+    list-style: none
+}
+
+.sign-google ul li a {
+    padding: 0 20px;
+    color: #000;
+    font-weight: 600;
+    display: inline-block
+}
+
+.sign-google ul li a,
+.google-bg span a,
+.google-bg p,
+.back-home a {
+    font-size: 14px
+}
+
+.google-bg p a {
+    color: var(--main-color)
+}
+
+.sign-google ul li a img {
+    margin-right: 10px
+}
+
+.sign-google ul li:first-child a {
+    border-right: 1px solid #000
+}
+
+.google-bg span a {
+    color: #22100d;
+    font-weight: 400
+}
+
+.sign-google {
+    margin: 32px 0
+}
+
+.loginbox .form-control {
+    border-color: rgba(255, 222, 218, .71);
+    border-radius: 5px;
+    min-height: 50px
+}
+
+.loginbox .form-control:focus {
+    border: 1px solid var(--main-color)
+}
+
+.toggle-password.feather-eye {
+    margin-right: 1px;
+    color: #6e82a3
+}
+
+.forgot-link {
+    color: #392c7d;
+    font-size: 14px
+}
+
+.forgot {
+    margin-bottom: 28px
+}
+
+.remember-me label {
+    font-size: 14px
+}
+
+.remember-me {
+    margin-bottom: 30px
+}
+
+.btn-start {
+    background: var(--main-color);
+    border-radius: 5px;
+    padding: 12px 15px;
+    font-weight: 700;
+    color: #fff
+}
+
+.btn-start:hover {
+    background: var(--main-color);
+    color: #fff;
+    filter: grayscale(0.3);
+}
+
+.log-wrap .login-wrapper {
+    flex-direction: column;
+    flex-wrap: unset;
+    justify-content: unset
+}
+
+.log-wrap .google-bg {
+    margin-top: auto
+}
+
+.custom_check {
+    color: #685f78 !important;
+    display: inline-block;
+    position: relative;
+    font-size: 14px !important;
+    margin-bottom: 15px;
+    padding-right: 25px;
+    cursor: pointer;
+    font-weight: 400 !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 18px;
+    font-family: noto sans, sans-serif
+}
+
+input {
+    text-align: right;
+}
+
+.custom_check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer
+}
+
+.custom_check input:checked~.checkmark {
+    background-color: var(--main-color);
+    border-color: var(--main-color)
+}
+
+.custom_check .checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    border: 1px solid var(--main-color);
+    background-color: #fff;
+    border-radius: 2px;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.custom_check .checkmark::after {
+    content: "\e92b";
+    font-family: feather !important;
+    font-weight: 900;
+    position: absolute;
+    display: none;
+    left: 2px;
+    top: -2px;
+    color: #fff;
+    font-size: 9px
+}
+
+.custom_check input:checked~.checkmark:after {
+    display: block
+}
+
+input[type=password]::-ms-reveal,
+input[type=password]::-ms-clear {
+    display: none
+}
+
+.error-box .btn-primary:active:not(:disabled):not(.disabled) {
+    background: var(--main-color)
+}
+
+@media(max-width: 1399.98px) {
+    .login-banner img {
+        max-width: 280px
+    }
+
+    h1 {
+        font-size: 32px
+    }
+}
+
+@media(max-width: 1199.98px) {
+
+    .google-bg {
+        padding: 25px
+    }
+
+    .sign-google ul li a {
+        padding: 0 10px
+    }
+
+    .login-wrapper .loginbox h1 {
+        font-size: 28px
+    }
+
+    .login-banner img {
+        max-width: 330px
+    }
+
+    .mentor-course h2 {
+        font-size: 28px;
+        margin: 20px 0
+    }
+}
+
+@media(max-width: 991.98px) {
+
+    h1 {
+        font-size: 28px
+    }
+
+    .login-wrapper .loginbox {
+        padding: 50px
+    }
+
+    .login-wrapper .loginbox h1 {
+        font-size: 26px
+    }
+
+    .sign-google ul li {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px
+    }
+
+    .sign-google ul li:first-child a {
+        border-right: 0
+    }
+
+    .sign-google ul {
+        display: block
+    }
+
+    .sign-google {
+        margin: 25px 0
+    }
+
+    .mentor-course h2 {
+        font-size: 22px;
+        margin: 15px 0
+    }
+
+    .login-banner img {
+        max-width: 280px
+    }
+}
+
+@media(max-width: 767.98px) {
+    body {
+        font-size: 15px
+    }
+
+    .login-bg {
+        display: none
+    }
+
+    .login-wrapper .loginbox {
+        padding: 50px
+    }
+
+    .login-wrapper .loginbox h1 {
+        font-size: 24px;
+        margin-bottom: 15px
+    }
+
+    .login-wrapper .loginbox label {
+        font-size: 15px
+    }
+
+    .google-bg {
+        padding: 20px
+    }
+
+    .sign-google ul li a img {
+        margin-right: 10px;
+        width: 16px
+    }
+
+    .sign-google ul {
+        display: block
+    }
+
+    .sign-google ul li:first-child a {
+        border-right: 0
+    }
+
+    .sign-google ul li {
+        margin-bottom: 10px
+    }
+
+    .sign-google {
+        margin: 20px 0
+    }
+
+    .login-wrapper .loginbox .img-logo {
+        display: block;
+        margin-bottom: 35px
+    }
+
+    .back-home {
+        margin-top: 10px
+    }
+
+    .btn {
+        font-size: 14px
+    }
+}

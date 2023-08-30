@@ -1,0 +1,46 @@
+.page-banner {
+    padding: 88px 0;
+    text-align: center;
+    background: url('../assets/imgs/ban-bg.png') var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page-banner h1 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+@media (max-width: 1399.98px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .page-banner {
+        padding: 50px 0;
+    }
+
+    .page-banner h1 {
+        font-size: 24px;
+    }
+}
+/**terms Section*/
+.terms_section {
+    padding: 50px 200px;
+}
+.terms_section h2{
+    color: var(--primary-color);
+    margin: 20px 0;
+}

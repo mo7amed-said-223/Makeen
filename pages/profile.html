@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../assets/library/bootstrap-5.3.0-dist/css/bootstrap.rtl.min.css">
+    <link rel="stylesheet" href="./../assets/library/select2/select2.min.css">
+    <link rel="stylesheet" href="./../css/main.css">
+    <link rel="stylesheet" href="./../css/profile.css">
+    <title> منصة مكين | الصفحة الرئيسية</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-fixed">
+            <nav class="navbar navbar-expand-lg header-nav scroll-sticky">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a id="mobile_btn" href="javascript:void(0);">
+                            <span class="bar-icon">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </a>
+                        <a href="../index.html" class="navbar-brand logo">
+                            <img src="../assets/imgs/logo.png" class="img-fluid" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="main-menu-wrapper">
+                        <div class="menu-header">
+                            <a href="../index.html" class="menu-logo">
+                                <img src="../assets/imgs/logo.png" class="img-fluid" alt="Logo">
+                            </a>
+                            <a id="menu_close" class="menu-close" href="javascript:void(0);">
+                                <i class="fas fa-times"></i>
+                            </a>
+                        </div>
+                        <ul class="main-nav">
+                            <li class="has-submenu active">
+                                <a href="../index.html">الصفحة الرئيسية</a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="./about-us.html">من نحن</a>
+                            </li>
+                            <li class="has-submenu ">
+                                <a href="./category-courses.html">التخصصات التعليمية <i
+                                        class="fas fa-chevron-down"></i></a>
+                                <ul class="submenu">
+                                    <li><a href="./courses.html">الذكاء الاصطناعي</a></li>
+                                    <li><a href="./courses.html">أمن المعلومات</a></li>
+                                    <li><a href="./courses.html">علوم البيانات</a></li>
+                                    <li><a href="./courses.html">البرمجة</a></li>
+                                </ul>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="./blogs.html"> المدونة</a>
+                            </li>
+                            <li class="has-submenu">
+                                <a href="./contact-us.html"> اتصل بنا </a>
+                            </li>
+                            <li class="has-submenu link-login">
+                                <a href="./login.html">تسجيل الدخول </a>
+                            </li>
+                            <li class="has-submenu link-register">
+                                <a href="./register.html">الاشتراك</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="nav header-navbar-rht header-navbar">
+                        <li class="nav-item">
+                            <a class="login" href="./login.html">الدخول</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="signup" href="./register.html">انشاء حساب</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="breadcrumb-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-12">
+                    <div class="breadcrumb-list">
+                        <nav aria-label="breadcrumb" class="page-breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../index.html">الصفحةالرئيسية</a></li>
+                                <li class="breadcrumb-item" aria-current="page">صفحتي الشخصية</li>
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-4 theiaStickySidebar">
+                    <div class="settings-widget dash-profile mb-3">
+                        <div class="settings-menu p-0">
+                            <div class="profile-bg">
+                                <img src="../assets/imgs/profile-bg.jpg" alt>
+                                <div class="profile-img">
+                                    <img src="../assets/imgs/user-profile.jpg" alt>
+                                </div>
+                            </div>
+                            <div class="profile-group">
+                                <div class="profile-name text-center">
+                                    <h4>محمد سعيد</h4>
+                                    <p>طالب</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-widget account-settings">
+                        <div class="settings-menu">
+                            <h3>اعدادات حسابي</h3>
+                            <ul>
+                                <li class="nav-item active">
+                                    <a href="javascript:void(0);" class="nav-link" data-view="1">
+                                        <i class="feather-settings"></i> بياناتي الشخصية
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link" data-view="2">
+                                        <i class="feather-user"></i> دوراتي
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link" data-view="5">
+                                        <i class="feather-user"></i> ادارة الدورات
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link" data-view="3">
+                                        <i class="feather-user"></i> الأشعارات
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="login.html" class="nav-link">
+                                        <i class="feather-power"></i> تسجيل الخروج
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-9 col-md-8">
+                    <div class="settings-widget widget-view profile-details show" data-widget="1">
+                        <div class="settings-menu p-0">
+                            <div class="profile-heading">
+                                <h3>البيانات الشخصية</h3>
+                            </div>
+                            <div class="checkout-form personal-address add-course-info ">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label class="form-control-label">اسمك : </label>
+                                                <input type="text" class="form-control" placeholder="ادخل اسمك..">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label class="form-control-label">رقم جوالك : </label>
+                                                <input type="tel" class="form-control" placeholder="اكتب رقم جوالك....">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label class="form-control-label">ايميلك : </label>
+                                                <input type="text" class="form-control" placeholder="اكتب ايميلك...">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6">
+                                            <div class="form-group">
+                                                <label class="form-control-label">عنوانك : </label>
+                                                <input type="text" class="form-control" placeholder="ادخل عنوان سكنك..">
+                                            </div>
+                                        </div>
+                                        <div class="update-profile">
+                                            <button type="button" class="btn btn-primary">تحديث البيانات</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-widget widget-view " data-widget="2">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 d-flex">
+                                <div class="course-box course-design d-flex ">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="./course-details.html">
+                                                <img class="img-fluid" alt="" src="../assets/imgs/course (4).jpeg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="course-group d-flex">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="#"><img src="../assets/imgs/user.jpg" alt=""
+                                                            class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="#">محمد سعيد</a></h4>
+                                                        <p>المحاضر</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                            <h3 class="title"><a href="./course-details.html">تعلم اساسيات البرمجة</a>
+                                            </h3>
+                                            <div class="all-btn all-category d-flex align-items-center justify-content-between">
+                                                <a href="./course-details.html" class="btn btn-primary">الدخول</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex">
+                                <div class="course-box course-design d-flex ">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="./course-details.html">
+                                                <img class="img-fluid" alt="" src="../assets/imgs/course (4).jpeg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="course-group d-flex">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="#"><img src="../assets/imgs/user.jpg" alt=""
+                                                            class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="#">محمد سعيد</a></h4>
+                                                        <p>المحاضر</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                            <h3 class="title"><a href="./course-details.html">تعلم اساسيات البرمجة</a>
+                                            </h3>
+                                            <div class="all-btn all-category d-flex align-items-center justify-content-between">
+                                                <a href="./course-details.html" class="btn btn-primary">الدخول</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 d-flex">
+                                <div class="course-box course-design d-flex ">
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="./course-details.html">
+                                                <img class="img-fluid" alt="" src="../assets/imgs/course (4).jpeg">
+                                            </a>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="course-group d-flex">
+                                                <div class="course-group-img d-flex">
+                                                    <a href="#"><img src="../assets/imgs/user.jpg" alt=""
+                                                            class="img-fluid"></a>
+                                                    <div class="course-name">
+                                                        <h4><a href="#">محمد سعيد</a></h4>
+                                                        <p>المحاضر</p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="course-share d-flex align-items-center justify-content-center">
+                                                    <a href="#rate"><i class="fa-regular fa-heart"></i></a>
+                                                </div>
+                                            </div>
+                                            <h3 class="title"><a href="./course-details.html">تعلم اساسيات البرمجة</a>
+                                            </h3>
+                                            <div class="all-btn all-category d-flex align-items-center justify-content-between">
+                                                <a href="./course-details.html" class="btn btn-primary">الدخول</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-widget widget-view" data-widget="3">
+                        <div class="notify-item">
+                            <div class="row align-items-center">
+                                <div class="col-md-9">
+                                    <div class="notify-content">
+                                        <div class="notify-detail">
+                                            <h6>الدورات <span>اليوم 12:46 </span></h6>
+                                            <p>لقد انضممت الي كورس اساسيات البرمجة للمبتدئين</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="text-md-end">
+                                        <a href="#" class="btn">تعيين كمقروء</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notify-item">
+                            <div class="row align-items-center">
+                                <div class="col-md-9">
+                                    <div class="notify-content">
+                                        <div class="notify-detail">
+                                            <h6>الدورات <span>اليوم 12:46 </span></h6>
+                                            <p>لقد انضممت الي كورس اساسيات البرمجة للمبتدئين</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="text-md-end">
+                                        <a href="#" class="btn">تعيين كمقروء</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="notify-item">
+                            <div class="row align-items-center">
+                                <div class="col-md-9">
+                                    <div class="notify-content">
+                                        <div class="notify-detail">
+                                            <h6>الدورات <span>اليوم 12:46 </span></h6>
+                                            <p>لقد انضممت الي كورس اساسيات البرمجة للمبتدئين</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="text-md-end">
+                                        <a href="#" class="btn">تعيين كمقروء</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="settings-widget widget-view" data-widget="4">
+                        <fieldset class="field-card">
+                            <div class="add-course-info">
+                                <div class="add-course-inner-header">
+                                    <h4>محتوي كورس اساسيات البرمجة</h4>
+                                </div>
+                                <div class="add-course-section">
+                                    <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#sectionModal"
+                                        class="btn">أضافة وحدة</a>
+                                </div>
+                                <div class="add-course-form">
+                                    <div class="curriculum-grid">
+                                        <div class="curriculum-head">
+                                            <p>الوحدة 1 : المقدمة</p>
+                                            <a href="javascript:void(0);" class="btn" data-bs-toggle="modal" data-bs-target="#lessonModal">أضافة درس جديد</a>
+                                        </div>
+                                        <div class="curriculum-info">
+                                            <div id="accordion">
+                                                <div class="faq-grid">
+                                                    <div class="faq-header">
+                                                        <a class="faq-collapse" data-bs-toggle="modal"
+                                                            data-bs-target="#typeModal1"
+                                                            href="javascript:void(0);">
+                                                            <i></i>
+                                                            مفهوم البرمجة
+                                                        </a>
+                                                        <div class="faq-left">
+                                                            <a href="javascript:void(0);" class="me-0">
+                                                                <i class="far fa-trash-can"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="faq-grid">
+                                                    <div class="faq-header">
+                                                        <a class="faq-collapse" data-bs-toggle="modal"
+                                                            data-bs-target="#typeModal2"
+                                                            href="javascript:void(0);">
+                                                            <i></i>
+                                                            معلومات عن البرمجة
+                                                        </a>
+                                                        <div class="faq-left">
+                                                            <a href="javascript:void(0);" class="me-0">
+                                                                <i class="far fa-trash-can"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="faq-grid">
+                                                    <div class="faq-header">
+                                                        <a class="faq-collapse" data-bs-toggle="modal"
+                                                            data-bs-target="#typeModal3"
+                                                            href="javascript:void(0);">
+                                                            <i></i>
+                                                            ملفات عن البرمجة
+                                                        </a>
+                                                        <div class="faq-left">
+                                                            <a href="javascript:void(0);" class="me-0">
+                                                                <i class="far fa-trash-can"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="faq-grid">
+                                                    <div class="faq-header">
+                                                        <a class="faq-collapse" data-bs-toggle="modal"
+                                                            data-bs-target="#typeModal4"
+                                                            href="javascript:void(0);">
+                                                            <i></i>
+                                                            اختبار عن البرمجة
+                                                        </a>
+                                                        <div class="faq-left">
+                                                            <a href="javascript:void(0);" class="me-0">
+                                                                <i class="far fa-trash-can"></i>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </fieldset>
+                        <div class="pops">
+                            <div class="modal fade" id="sectionModal" aria-hidden="true"
+                                aria-labelledby="sectionModalLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="sectionModalLabel">أضافة وحدة</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">اسم الوحدة : </label>
+                                                        <input type="text" class="form-control"
+                                                            placeholder="ادخل اسم الوحدة..">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label"> الترتيب : </label>
+                                                        <input type="number" min="1" class="form-control"
+                                                            placeholder="ادخل ترتيب الوحدة..">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-dismiss="modal"
+                                                aria-label="Close">انشاء الوحدة</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="lessonModal" aria-hidden="true"
+                                aria-labelledby="lessonModalLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="lessonModalLabel">أضافة وحدة</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">اسم الدرس : </label>
+                                                        <input type="text" class="form-control"
+                                                            placeholder="ادخل اسم الدرس..">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label"> النوع : </label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option value="1" selected>فيديو تعليمي</option>
+                                                            <option value="2">محتوي نصي</option>
+                                                            <option value="3">مرفقات</option>
+                                                            <option value="4">اختبار</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-dismiss="modal"
+                                                aria-label="Close">انشاء الدرس</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal fade " id="typeModal1" aria-hidden="true"
+                                aria-labelledby="typeModal1Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="typeModal1Label">تفاصيل الفيديو التعليمي</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body ">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">رابط الفيديو : </label>
+                                                        <input type="url" class="form-control"
+                                                            placeholder="ادخل رابط الفيديو..">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">رابط الفيديو : </label>
+                                                        <input type="url" class="form-control"
+                                                            placeholder="ادخل رابط الفيديو..">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">رابط الصورة المصغرة للفيديو : </label>
+                                                        <input type="url" class="form-control"
+                                                            placeholder="ادخل رابط الصورة المصغرة للفيديو..">
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">محتوي نصي : </label>
+                                                        <textarea class="form-control"
+                                                            placeholder="أدخل المحتوي النصي"></textarea>
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                                                        <label class="input-group-text" for="inputGroupFile02">مرفقات</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-dismiss="modal"
+                                                aria-label="Close">انشاء الدرس</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="typeModal2" aria-hidden="true"
+                                aria-labelledby="typeModal2Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="typeModal2Label">أضافة وحدة</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">محتوي نصي : </label>
+                                                        <textarea class="form-control" placeholder="أدخل المحتوي النصي"></textarea>
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                                                        <label class="input-group-text" for="inputGroupFile02">مرفقات</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-dismiss="modal"
+                                                aria-label="Close">انشاء الدرس</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="typeModal3" aria-hidden="true"
+                                aria-labelledby="typeModal3Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="typeModal3Label">أضافة وحدة</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">محتوي نصي : </label>
+                                                        <textarea class="form-control" placeholder="أدخل المحتوي النصي"></textarea>
+                                                    </div>
+                                                    <div class="input-group mb-3">
+                                                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                                                        <label class="input-group-text" for="inputGroupFile02">مرفقات</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-dismiss="modal"
+                                                aria-label="Close">انشاء الدرس</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="typeModal4" aria-hidden="true"
+                                aria-labelledby="typeModal4Label" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="typeModal4Label">أضافة وحدة</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">عنوان الاختبار  : </label>
+                                                        <input type="text" class="form-control" placeholder="ادخل عنوان الاختبار ..">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label"> الدرجة الكلية : </label>
+                                                        <input type="number" min="1" class="form-control" placeholder="ادخل الدرجة الكلية للاختبار ..">
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary modal-button mb-2" data-bs-toggle="modal" data-bs-target="#questionModal">انشاء سؤال</button>
+                                                <div class="faq-grid">
+                                                    <div class="faq-header">
+                                                        <div>
+                                                            <h6>
+                                                                ما فائدة الوراثة في البرمجة ؟
+                                                            </h6>
+                                                            <p><input type="radio" disabled checked> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                        </div>
+                                                        <div class="faq-left">
+                                                            <a href="javascript:void(0);" class="me-0">
+                                                                <i class="far fa-trash-can"></i>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="faq-grid">
+                                                    <div class="faq-header">
+                                                        <div>
+                                                            <h6>
+                                                                ما فائدة الوراثة في البرمجة ؟
+                                                            </h6>
+                                                            <p><input type="radio" disabled checked> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                        </div>
+                                                        <div class="faq-left">
+                                                            <a href="javascript:void(0);" class="me-0">
+                                                                <i class="far fa-trash-can"></i>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="faq-grid">
+                                                    <div class="faq-header">
+                                                        <div>
+                                                            <h6>
+                                                                ما فائدة الوراثة في البرمجة ؟
+                                                            </h6>
+                                                            <p><input type="radio" disabled checked> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                            <p><input type="radio" disabled> الاختيار الاول</p>
+                                                        </div>
+                                                        <div class="faq-left">
+                                                            <a href="javascript:void(0);" class="me-0">
+                                                                <i class="far fa-trash-can"></i>
+                                                            </a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-dismiss="modal"
+                                                aria-label="Close">انشاء الاختبار</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="questionModal" aria-hidden="true"
+                                aria-labelledby="questionModalLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="questionModalLabel">أضافة وحدة</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">السؤال   : </label>
+                                                        <input type="text" class="form-control"
+                                                            placeholder="ادخل السؤال..">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">الاجابات   : </label>
+                                                        <div class="form-check d-flex align-items-center mb-2">
+                                                            <input class="form-check-input me-2" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                            <label class="form-check-label w-100" for="exampleRadios2">
+                                                                <input type="text" class="form-control" placeholder="ادخل الاختيار..">
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check d-flex align-items-center mb-2">
+                                                            <input class="form-check-input me-2" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                            <label class="form-check-label w-100" for="exampleRadios2">
+                                                                <input type="text" class="form-control" placeholder="ادخل الاختيار..">
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check d-flex align-items-center mb-2">
+                                                            <input class="form-check-input me-2" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                            <label class="form-check-label w-100" for="exampleRadios2">
+                                                                <input type="text" class="form-control" placeholder="ادخل الاختيار..">
+                                                            </label>
+                                                        </div>
+                                                        <div class="form-check d-flex align-items-center mb-2">
+                                                            <input class="form-check-input me-2" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                                                            <label class="form-check-label w-100" for="exampleRadios2">
+                                                                <input type="text" class="form-control" placeholder="ادخل الاختيار..">
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-toggle="modal"
+                                                            data-bs-target="#typeModal4">انشاء السؤال</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget-btn">
+                            <a class="btn btn-info-light next_btn" onclick="addContent(5)">رجوع</a>
+                        </div>
+                    </div>
+                    <div class="settings-widget widget-view" data-widget="5">
+                        <div class="settings-referral-blk course-instruct-blk  table-responsive">
+                            <div class="add-course-section">
+                                <a href="javascript:void(0);" data-bs-toggle="modal" data-bs-target="#contentModal" class="btn">أضافة محتوي</a>
+                            </div>
+                            <table class="table table-nowrap mb-0">
+                                <thead>
+                                    <tr>
+                                        <th>م</th>
+                                        <th>اسم المحتوي</th>
+                                        <th>الدورة</th>
+                                        <th>حالة الربط</th>
+                                        <th>التفاصيل </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1#</td>
+                                        <td>مفهوم الوراثة</td>
+                                        <td>تعلم اساسيات البرمجة</td>
+                                        <td><span class="badge info-low bg-warning">انتظار</span></td>
+                                        <td style="cursor: pointer;font-weight: bold;" onclick="addContent(4)">تعديل المحتوي </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2#</td>
+                                        <td>مفهوم الوراثة</td>
+                                        <td>تعلم اساسيات البرمجة</td>
+                                        <td><span class="badge info-low bg-danger">نم الرفض</span></td>
+                                        <td style="cursor: pointer;font-weight: bold;" onclick="addContent(4)">تعديل المحتوي </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3#</td>
+                                        <td>مفهوم الوراثة</td>
+                                        <td>تعلم اساسيات البرمجة</td>
+                                        <td><span class="badge info-low bg-success">تمت الموافقة</span></td>
+                                        <td style="cursor: pointer;font-weight: bold;" onclick="addContent(4)">تعديل المحتوي </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="modal fade" id="contentModal" aria-hidden="true" aria-labelledby="contentModalLabel" tabindex="-1">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <form action="javascript:void(0);" class="modal-content">
+                                        <div class="modal-header">
+                                            <h1 class="modal-title fs-5" id="contentModalLabel">أضافة محتوي</h1>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label">اسم المحتوي </label>
+                                                        <input type="text" class="form-control" placeholder="ادخل اسم المحتوي..">
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label class="form-control-label"> الدورة : </label>
+                                                        <select class="form-select" aria-label="Default select example">
+                                                            <option value="1" selected>----</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-lg-12">
+                                                    <div class="input-group mb-3">
+                                                        <input type="file" class="form-control" id="inputGroupFile02" multiple>
+                                                        <label class="input-group-text" for="inputGroupFile02">ملف</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="submit" class="btn btn-primary modal-button" data-bs-dismiss="modal"
+                                                aria-label="Close">انشاء المحتوي</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-left">
+                    <img src="../assets/imgs/footer-left.svg" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
+                        <div class="footer-contact footer-menu">
+                            <h2 class="footer-title footer-title">منصة مكين</h2>
+                            <div class="footer-contact-info">
+                                <div class="footer-address">
+                                    <span><i class="feather-map-pin"></i></span>
+                                    <p> 3556 شارع الرياض<br> السعودية </p>
+                                </div>
+                                <p class="mb-0">
+                                    <span class="phone-icon"><i class="fa-solid fa-phone-volume"></i></span>
+                                    +0123456789
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-12">
+
+                        <div class="footer-menu footer-menu">
+                            <h2 class="footer-title footer-title"><i class="fa-sharp fa-solid fa-dash"></i>
+                                روابط مهمة</h2>
+                            <ul>
+                                <li><a href="../index.html">الصفحة الرئيسية</a>
+                                </li>
+                                <li><a href="./about-us.html">من نحن</a></li>
+                                <li><a href="./profile.html">صفحتي الشخصية</a></li>
+                                <li><a href="./blogs.html">المدونة</a>
+                                </li>
+                                <li><a href="./courses.html">الدورات</a>
+                                </li>
+                                <li><a href="./category-courses.html">
+                                        التخصصات</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-2 col-md-3 col-sm-12">
+
+                        <div class="footer-menu footer-menu">
+                            <h2 class="footer-title footer-title">سياسة التحكم</h2>
+                            <ul>
+                                <li><a href="./download-center.html">مركز التحميل</a></li>
+                                <li><a href="./Terms.html">الشروط و الاحكام</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                        <h2 class="footer-title footer-title">الاشترام في النشرة الاخبارية</h2>
+                        <div class="footer-widget">
+                            <div class="footer-news">
+                                <form action="#" method="post">
+                                    <div class="form-group mb-0">
+                                        <input type="text" class="form-control" placeholder="اكتب ايميلك">
+                                        <button type="submit" class="btn btn-one">اشتراك</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="footer-about">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat mauris
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut consequat mauris</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <img src="../assets/imgs/footer-right.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom footer-bottom">
+            <div class="container">
+                <div class="copyright">
+                    <div class="row align-items-center">
+                        <div class="col-md-4">
+                            <div class="footer-logo">
+                                <a href="../index.html">
+                                    <img src="../assets/imgs/logo.png" class="img-fluid" alt="Footer Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="copyright-text">
+                                <p>جميع الحقوق محفوظة لدي شركة ازدهار 2023 ©</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="social-icon">
+                                <ul class="nav">
+                                    <li>
+                                        <a href="#" target="_blank" class="twitter-icon">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="linked-icon">
+                                            <i class="fab fa-linkedin-in"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="facebook-icon">
+                                            <i class="fab fa-facebook-f"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank" class="youtube-icon">
+                                            <i class="fab fa-youtube"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../assets/library/jquery/jquery-3.6.0.min.js"></script>
+    <script src="../assets/library/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
+    <script src="../assets/library/jquery/jquery.waypoints.js"></script>
+    <script src="../assets/library/jquery/jquery.counterup.min.js"></script>
+    <script src="../assets/library/select2/select2.min.js"></script>
+    <script src="https://kit.fontawesome.com/25b485c770.js" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/profile.js"></script>
+</body>
+
+</html>

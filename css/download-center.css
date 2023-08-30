@@ -1,0 +1,149 @@
+.page-banner {
+    padding: 88px 0;
+    text-align: center;
+    background: url('../assets/imgs/ban-bg.png') var(--primary-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.page-banner h1 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #FFF;
+}
+
+@media (max-width: 1399.98px) {
+    h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .page-banner {
+        padding: 50px 0;
+    }
+
+    .page-banner h1 {
+        font-size: 24px;
+    }
+}
+
+body {
+    background-color: #fafafa;
+}
+.download-section{
+    margin-top: 100px;
+}
+.card {
+    border: 1px solid #e9ecef;
+    margin-bottom: 1.875rem;
+    border-radius: 0
+}
+
+.card-body {
+    padding: 1.5rem
+}
+
+.card-title {
+    margin-bottom: 15px;
+    font-size: 24px !important;
+}
+
+.card-header {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 1rem 1.5rem
+}
+
+.card .card-header {
+    background-color: #fff;
+    border-bottom: 1px solid #f0f0f0
+}
+
+.card .card-header .card-title {
+    margin-bottom: 0
+}
+
+
+.category-widget .categories {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.category-widget .categories li {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.category-widget .categories li:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0
+}
+
+.category-widget .categories li a {
+    color: #22100d;
+    font-weight: 500
+}
+
+.category-widget .categories li a:hover {
+    color: var(--primary-color)
+}
+
+.category-widget .categories>li>a>i {
+    color: var(--primary-color);
+    font-size: 18px;
+    margin-left: 19px
+}
+
+.download-widget {
+    padding: 20px;
+    border: 1px solid #e9ecef;
+    margin-bottom: 20px;
+    border-radius: 10px
+}
+
+.download-widget .card-body {
+    padding: 0
+}
+
+.download-widget .card-header {
+    border-bottom: 0;
+    padding: 0;
+    margin-bottom: 20px
+}
+
+.download-widget .card-header .card-title {
+    font-size: 18px;
+    color: #0b0b0b;
+    font-weight: 700
+}
+
+
+@media(max-width: 767.98px) {
+
+    .download-widget .card-header {
+        margin-bottom: 20px
+    }
+}
+
+.card {
+    border: 1px solid #e9ecef;
+    margin-bottom: 1.875rem;
+    border-radius: 0
+}
+
+.card-body {
+    padding: 1.5rem
+}
+
+
