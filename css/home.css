@@ -615,7 +615,7 @@
 
 .apply_section .apply {
     border-radius: 30px;
-    padding: 50px 100px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -2016,6 +2016,17 @@
     .blog-box-content {
         padding: 20px
     }
+        .apply_section {
+            padding: 100px 30px;
+        }
+    
+        .apply_section .apply {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .video-card{
+            width: 100% !important;
+        }
 
 }
 
@@ -2179,4 +2190,15 @@
     .blog-box-content {
         padding: 20px
     }
+    .apply_section{
+        padding: 100px 30px;
+    }
+
+    .apply_section .apply{
+        margin-left: 0;
+        margin-right: 0;
+    }
+        .video-card {
+            width: 100% !important;
+        }
 }
