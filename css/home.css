@@ -40,7 +40,9 @@
     left: 2.5rem;
     top: 14.5rem
 }
-
+.home-slide{
+    min-height: 500px;
+}
 .home-slide-face {
     padding: 174px 0 56px
 }
