@@ -1691,11 +1691,17 @@ html.menu-opened body {
     .page-breadcrumb ol {
         font-size: 14px;
     }
+    .more-btn a {
+        font-size: var(--main-font) !important;
+    }
 }
 
 @media (max-width: 575.98px) {
     .page-breadcrumb ol li {
         display: none;
+    }
+    .more-btn a {
+        font-size: var(--small-font) !important;
     }
 }
 
@@ -1717,6 +1723,7 @@ html.menu-opened body {
     color: var(--white-color);
     background: var(--secondary-color);
 }
+
 .link-register,
 .link-login{
     display: none !important;
